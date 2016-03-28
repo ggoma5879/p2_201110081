@@ -21,7 +21,7 @@ bigger=10
 
 def bangbangbang(size,angle,bigger,sides):
         for i in range(0,sides):
-            if i%2:
+            if i%2==0:
                 size
             else : 
                 size=size+bigger
